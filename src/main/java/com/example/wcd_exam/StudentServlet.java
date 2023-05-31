@@ -20,7 +20,7 @@ public class StudentServlet extends HttpServlet {
     public void init() throws ServletException{
         super.init();
         studentList = new ArrayList<>();
-        studentList.add(new Student(1,"Huy Dang",70,"images/Avatar.png"));
+        studentList.add(new Student(1,"Truong Thong ",70,"images/avatar.jpg"));
     }
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String action = request.getParameter("action");
